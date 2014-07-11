@@ -1,0 +1,44 @@
+{
+  "author": "Justin Lambert \u003cjlambert@letsevenup.com\u003e",
+  "checksums": {
+    "Rakefile": "5151df4f03dff05562dd69e2c798da03",
+    "manifests/package.pp": "32a9225a5e9b53158c4bd62c65a4ab78",
+    "Gemfile": "f690c7696f4b4faf3db2d1f502bf325c",
+    "spec/defines/kibana_dashboard_spec.rb": "8483493eca71da6524c9054ebc8d23e5",
+    "manifests/dashboard.pp": "37b5fd6d25435a0b5bdeb70c3096e61c",
+    "scripts/build.sh": "9f46e8497231713b672303ecb8c97947",
+    "spec/classes/kibana_package_spec.rb": "ec833cbbfb8a8a5c8a279d6a764e7649",
+    "Modulefile": "a916054ee7611661344603f3375bba73",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "spec/classes/kibana_config_spec.rb": "c1814049e2dafce50ac880ea1fc45d0b",
+    "LICENSE": "6a34c40bb8fa2134a463a814bae7dbe6",
+    "templates/config.js": "c4c526539f8628618333f8a6f458799d",
+    "manifests/init.pp": "1299b3cf37e4015abec0d7b08d3d5706",
+    "manifests/config.pp": "3f5119de5ab35d7b17779d8f4a483d7f",
+    "CHANGELOG": "131a3c612bd80956be69294ef27f109f",
+    "spec/classes/kibana_init_spec.rb": "537dd5016b35e0807a8cd44192a8296e",
+    "README.md": "a2561a65cba959cc34ed2de23348d867"
+  },
+  "dependencies": [
+    {
+      "name": "puppetlabs/apache",
+      "version_requirement": "\u003e\u003d1.0.0"
+    },
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "\u003e\u003d4.0.0"
+    },
+    {
+      "name": "puppetlabs/firewall",
+      "version_requirement": "\u003e\u003d1.1.0"
+    }
+  ],
+  "description": "Installs and configures Kibana3 from packages.",
+  "license": "Apache",
+  "name": "evenup-kibana",
+  "project_page": "https://github.com/cristi1979/evenup-kibana",
+  "source": "https://github.com/cristi1979/evenup-kibana.git",
+  "summary": "Installs and configures Kibana3.",
+  "types": [],
+  "version": "1.1.0"
+}
