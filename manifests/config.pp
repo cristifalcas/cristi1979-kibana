@@ -52,6 +52,8 @@ class kibana::config (
     servername    => $::fqdn,
     serveraliases => [$::domain, "*.${::domain}", $::ipaddress, $::hostname],
     docroot       => '/var/www/html/kibana',
+    access_log_syslog => '|/usr/bin/logger -p local6.info -t httpd_kibana',
+    error_log_syslog  => 'syslog:local7',
   }
 
   firewall { '200 http and https':
